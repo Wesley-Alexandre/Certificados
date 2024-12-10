@@ -22,6 +22,7 @@ document.getElementById("upload-form").addEventListener("submit", function(event
             document.getElementById("lista-certificados").appendChild(certificadoItem);
         };
 
+        
         reader.readAsDataURL(certificadoFile); 
     }
 });
